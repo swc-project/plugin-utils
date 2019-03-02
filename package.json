@@ -1,0 +1,39 @@
+{
+  "name": "@swc/plugin-utils",
+  "version": "0.1.0",
+  "description": "Utilities for plugins for swc",
+  "main": "index.js",
+  "scripts": {
+    "gen": "npx ts-node ./scripts/gen.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swc-project/plugin-utils.git"
+  },
+  "keywords": [
+    "swc",
+    "plugin",
+    "utility",
+    "babel"
+  ],
+  "author": "kdy1 <kdy1@outlook.kr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swc-project/plugin-utils/issues"
+  },
+  "homepage": "https://github.com/swc-project/plugin-utils#readme",
+  "devDependencies": {
+    "@swc/core": "^1.0.30",
+    "@types/node": "^11.9.5",
+    "jest": "^24.1.0",
+    "ts-node": "^8.0.2",
+    "tslib": "^1.9.3",
+    "typescript": "^3.3.3333"
+  },
+  "peerDependencies": {
+    "@swc/core": "^1.0.30"
+  },
+  "dependencies": {}
+}
